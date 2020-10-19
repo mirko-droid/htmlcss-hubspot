@@ -5,6 +5,8 @@
 }
 
 body{
+  min-width: 1400px; /*impostando un min permette di "bloccare" il ridimensionamento al diminuire della viewport, impedendo agli alementi di sovrapporsi*/
+  overflow-x: hidden;
   font-family: 'Roboto', sans-serif;
   color: #33475B;
 }
@@ -184,7 +186,9 @@ main{
   padding-bottom: 30px;
 }
 .section_top p{
+  width: 50%;
   line-height: 2em;
+  margin: auto;
 }
 
 .section_bottom{
