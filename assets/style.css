@@ -138,10 +138,26 @@ ul a, ul li{
   width: 80%;
   margin: 0 auto;
 }
-
-
-/* /container header bottom */
-
+.banner_header{
+  max-width: 35%;
+  position: relative;
+  top: 60px;
+}
+.banner_header h1{
+ font-size: 50px;
+}
+.banner_header p{
+  margin: 20px 0;
+  line-height: 30px;
+}
+.banner_header a{
+  color: white;
+  line-height: 60px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #FE775A;
+  text-decoration: none;
+}
 /*separatore*/
 .separatore{
   width: 200%;
@@ -153,8 +169,9 @@ ul a, ul li{
   position: absolute;
   bottom: 0;
 }
-
 /*/separatore*/
+
+/* /container header bottom */
 /* /header */
 
 
