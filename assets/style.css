@@ -124,9 +124,23 @@ ul a, ul li{
 }
 
 /* /.navbar_bottom */
+/* container header bottom */
+.container_header_bottom{
+  width: 100%;
+  height: calc(700px - 120px); /*altezza header - le altezze della navbar*/
+  background-color: #FFF4EF;
+  background-image: url(img/jumbotron.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
 
+
+
+/* /container header bottom */
 
 /* /header */
+
 /*separatore*/
 .separatore{
   color: white;
